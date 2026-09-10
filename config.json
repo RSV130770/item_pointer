@@ -1,0 +1,36 @@
+{
+  "rowCommutator": { "address": 1 },
+  "columnCommutators": [
+    { "address": 2, "startColumn": 0 },
+    { "address": 3, "startColumn": 16 }
+  ],
+  "rows": 16,
+  "columnsPerCommutator": 16,
+  "allChannelsValue": 255,
+  "serialPort": {
+    "portName": "COM6",
+    "baudRate": 9600,
+    "parity": "None",
+    "dataBits": 8,
+    "stopBits": "One",
+    "responseTimeoutMs": 300,
+    "interCommandDelayMs": 10,
+    "retryCount": 3
+  },
+  "scalePort": {
+    "portName": "COM4",
+    "baudRate": 9600,
+    "parity": "None",
+    "dataBits": 8,
+    "stopBits": "One",
+    "responseTimeoutMs": 2000,
+    "interCommandDelayMs": 0,
+    "retryCount": 1
+  },
+  "taskFolderPath": "\\\\server\\share\\tasks",
+  "systemTaskFileName": "system_task.csv",
+  "logFolderPath": "\\\\server\\share\\tasks\\logs",
+  "usersFilePath": "users.json",
+  "defaultPrecisionGrams": 2.0,
+  "minimumValidWeightGrams": 5.0
+}
